@@ -28,6 +28,7 @@ li {
 
 a {
   color: inherit;
+  text-decoration: none;
 }
 
 button,
@@ -40,6 +41,12 @@ input {
 ul,
 ol {
   list-style: none;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
 }
 
 .visually-hidden {

@@ -1,1 +1,23 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+  --main-color: #000;
+  --background-color: #fff;
+
+  --modal-backdrop: #000;
+  --mix-color: var(--background-color);
+
+  --background-image-lines: #d3d3d3;
+  --background-image: #e7e7e7, #1a1a1a;
+
+  --fill-color-heart: #f00;
+
+  --main-font: 'Inter-Variable', monospace, sans-serif;
+  --accent-font: 'Press-Start-2P', monospace, sans-serif;
+
+  --font-regular-weight: 400;
+  --font-bold-weight: 700;
+
+  --container-width: clamp(375px, 50vw, 700px);
+  --logo-font-size: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
+  --main-title-font-size: clamp(0.875rem, 0.6769rem + 0.8451vw, 1.4375rem);
+}
